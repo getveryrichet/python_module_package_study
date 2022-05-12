@@ -1,8 +1,8 @@
-# from sister.sister import print_sister
-from utils.brother.first.brother_first import print_brother
-from utils.sister.sister import print_sister
-from services.first.first import first_calls_print_sister
+import util.voice.voice as voice
+import util.game.game as game
 
-print_sister()
-print_brother()
-first_calls_print_sister()
+voice.person_voice()
+
+voice.cello_sound()
+
+game.intro()
